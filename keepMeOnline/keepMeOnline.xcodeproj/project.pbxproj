@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD4234B62B0A24D9000C6E32 /* keepMeOnlineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4234B52B0A24D9000C6E32 /* keepMeOnlineApp.swift */; };
+		AD4234B82B0A24D9000C6E32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4234B72B0A24D9000C6E32 /* ContentView.swift */; };
+		AD4234BA2B0A24DA000C6E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4234B92B0A24DA000C6E32 /* Assets.xcassets */; };
+		AD4234BE2B0A24DA000C6E32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4234BD2B0A24DA000C6E32 /* Preview Assets.xcassets */; };
+		AD4234C82B0A24DB000C6E32 /* keepMeOnlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4234C72B0A24DB000C6E32 /* keepMeOnlineTests.swift */; };
+		AD4234D22B0A24DB000C6E32 /* keepMeOnlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4234D12B0A24DB000C6E32 /* keepMeOnlineUITests.swift */; };
+		AD4234D42B0A24DB000C6E32 /* keepMeOnlineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4234D32B0A24DB000C6E32 /* keepMeOnlineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD4234C42B0A24DB000C6E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4234AA2B0A24D9000C6E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4234B12B0A24D9000C6E32;
+			remoteInfo = keepMeOnline;
+		};
+		AD4234CE2B0A24DB000C6E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4234AA2B0A24D9000C6E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4234B12B0A24D9000C6E32;
+			remoteInfo = keepMeOnline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD4234B22B0A24D9000C6E32 /* keepMeOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keepMeOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4234B52B0A24D9000C6E32 /* keepMeOnlineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepMeOnlineApp.swift; sourceTree = "<group>"; };
+		AD4234B72B0A24D9000C6E32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD4234B92B0A24DA000C6E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4234BB2B0A24DA000C6E32 /* keepMeOnline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = keepMeOnline.entitlements; sourceTree = "<group>"; };
+		AD4234BD2B0A24DA000C6E32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD4234C32B0A24DB000C6E32 /* keepMeOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keepMeOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4234C72B0A24DB000C6E32 /* keepMeOnlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepMeOnlineTests.swift; sourceTree = "<group>"; };
+		AD4234CD2B0A24DB000C6E32 /* keepMeOnlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keepMeOnlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4234D12B0A24DB000C6E32 /* keepMeOnlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepMeOnlineUITests.swift; sourceTree = "<group>"; };
+		AD4234D32B0A24DB000C6E32 /* keepMeOnlineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepMeOnlineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4234AF2B0A24D9000C6E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4234C02B0A24DB000C6E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4234CA2B0A24DB000C6E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4234A92B0A24D9000C6E32 = {
+			isa = PBXGroup;
+			children = (
+				AD4234B42B0A24D9000C6E32 /* keepMeOnline */,
+				AD4234C62B0A24DB000C6E32 /* keepMeOnlineTests */,
+				AD4234D02B0A24DB000C6E32 /* keepMeOnlineUITests */,
+				AD4234B32B0A24D9000C6E32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4234B32B0A24D9000C6E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4234B22B0A24D9000C6E32 /* keepMeOnline.app */,
+				AD4234C32B0A24DB000C6E32 /* keepMeOnlineTests.xctest */,
+				AD4234CD2B0A24DB000C6E32 /* keepMeOnlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4234B42B0A24D9000C6E32 /* keepMeOnline */ = {
+			isa = PBXGroup;
+			children = (
+				AD4234B52B0A24D9000C6E32 /* keepMeOnlineApp.swift */,
+				AD4234B72B0A24D9000C6E32 /* ContentView.swift */,
+				AD4234B92B0A24DA000C6E32 /* Assets.xcassets */,
+				AD4234BB2B0A24DA000C6E32 /* keepMeOnline.entitlements */,
+				AD4234BC2B0A24DA000C6E32 /* Preview Content */,
+			);
+			path = keepMeOnline;
+			sourceTree = "<group>";
+		};
+		AD4234BC2B0A24DA000C6E32 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD4234BD2B0A24DA000C6E32 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD4234C62B0A24DB000C6E32 /* keepMeOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4234C72B0A24DB000C6E32 /* keepMeOnlineTests.swift */,
+			);
+			path = keepMeOnlineTests;
+			sourceTree = "<group>";
+		};
+		AD4234D02B0A24DB000C6E32 /* keepMeOnlineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4234D12B0A24DB000C6E32 /* keepMeOnlineUITests.swift */,
+				AD4234D32B0A24DB000C6E32 /* keepMeOnlineUITestsLaunchTests.swift */,
+			);
+			path = keepMeOnlineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD4234B12B0A24D9000C6E32 /* keepMeOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4234D72B0A24DB000C6E32 /* Build configuration list for PBXNativeTarget "keepMeOnline" */;
+			buildPhases = (
+				AD4234AE2B0A24D9000C6E32 /* Sources */,
+				AD4234AF2B0A24D9000C6E32 /* Frameworks */,
+				AD4234B02B0A24D9000C6E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keepMeOnline;
+			productName = keepMeOnline;
+			productReference = AD4234B22B0A24D9000C6E32 /* keepMeOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4234C22B0A24DB000C6E32 /* keepMeOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4234DA2B0A24DB000C6E32 /* Build configuration list for PBXNativeTarget "keepMeOnlineTests" */;
+			buildPhases = (
+				AD4234BF2B0A24DB000C6E32 /* Sources */,
+				AD4234C02B0A24DB000C6E32 /* Frameworks */,
+				AD4234C12B0A24DB000C6E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4234C52B0A24DB000C6E32 /* PBXTargetDependency */,
+			);
+			name = keepMeOnlineTests;
+			productName = keepMeOnlineTests;
+			productReference = AD4234C32B0A24DB000C6E32 /* keepMeOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD4234CC2B0A24DB000C6E32 /* keepMeOnlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4234DD2B0A24DB000C6E32 /* Build configuration list for PBXNativeTarget "keepMeOnlineUITests" */;
+			buildPhases = (
+				AD4234C92B0A24DB000C6E32 /* Sources */,
+				AD4234CA2B0A24DB000C6E32 /* Frameworks */,
+				AD4234CB2B0A24DB000C6E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4234CF2B0A24DB000C6E32 /* PBXTargetDependency */,
+			);
+			name = keepMeOnlineUITests;
+			productName = keepMeOnlineUITests;
+			productReference = AD4234CD2B0A24DB000C6E32 /* keepMeOnlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4234AA2B0A24D9000C6E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD4234B12B0A24D9000C6E32 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AD4234C22B0A24DB000C6E32 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD4234B12B0A24D9000C6E32;
+					};
+					AD4234CC2B0A24DB000C6E32 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AD4234B12B0A24D9000C6E32;
+					};
+				};
+			};
+			buildConfigurationList = AD4234AD2B0A24D9000C6E32 /* Build configuration list for PBXProject "keepMeOnline" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4234A92B0A24D9000C6E32;
+			productRefGroup = AD4234B32B0A24D9000C6E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4234B12B0A24D9000C6E32 /* keepMeOnline */,
+				AD4234C22B0A24DB000C6E32 /* keepMeOnlineTests */,
+				AD4234CC2B0A24DB000C6E32 /* keepMeOnlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4234B02B0A24D9000C6E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4234BE2B0A24DA000C6E32 /* Preview Assets.xcassets in Resources */,
+				AD4234BA2B0A24DA000C6E32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4234C12B0A24DB000C6E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4234CB2B0A24DB000C6E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4234AE2B0A24D9000C6E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4234B82B0A24D9000C6E32 /* ContentView.swift in Sources */,
+				AD4234B62B0A24D9000C6E32 /* keepMeOnlineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4234BF2B0A24DB000C6E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4234C82B0A24DB000C6E32 /* keepMeOnlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4234C92B0A24DB000C6E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4234D42B0A24DB000C6E32 /* keepMeOnlineUITestsLaunchTests.swift in Sources */,
+				AD4234D22B0A24DB000C6E32 /* keepMeOnlineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4234C52B0A24DB000C6E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4234B12B0A24D9000C6E32 /* keepMeOnline */;
+			targetProxy = AD4234C42B0A24DB000C6E32 /* PBXContainerItemProxy */;
+		};
+		AD4234CF2B0A24DB000C6E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4234B12B0A24D9000C6E32 /* keepMeOnline */;
+			targetProxy = AD4234CE2B0A24DB000C6E32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD4234D52B0A24DB000C6E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD4234D62B0A24DB000C6E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD4234D82B0A24DB000C6E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = keepMeOnline/keepMeOnline.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"keepMeOnline/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patrik.keepMeOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4234D92B0A24DB000C6E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = keepMeOnline/keepMeOnline.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"keepMeOnline/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patrik.keepMeOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD4234DB2B0A24DB000C6E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patrik.keepMeOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keepMeOnline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/keepMeOnline";
+			};
+			name = Debug;
+		};
+		AD4234DC2B0A24DB000C6E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patrik.keepMeOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keepMeOnline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/keepMeOnline";
+			};
+			name = Release;
+		};
+		AD4234DE2B0A24DB000C6E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patrik.keepMeOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keepMeOnline;
+			};
+			name = Debug;
+		};
+		AD4234DF2B0A24DB000C6E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = patrik.keepMeOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keepMeOnline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4234AD2B0A24D9000C6E32 /* Build configuration list for PBXProject "keepMeOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4234D52B0A24DB000C6E32 /* Debug */,
+				AD4234D62B0A24DB000C6E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4234D72B0A24DB000C6E32 /* Build configuration list for PBXNativeTarget "keepMeOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4234D82B0A24DB000C6E32 /* Debug */,
+				AD4234D92B0A24DB000C6E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4234DA2B0A24DB000C6E32 /* Build configuration list for PBXNativeTarget "keepMeOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4234DB2B0A24DB000C6E32 /* Debug */,
+				AD4234DC2B0A24DB000C6E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4234DD2B0A24DB000C6E32 /* Build configuration list for PBXNativeTarget "keepMeOnlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4234DE2B0A24DB000C6E32 /* Debug */,
+				AD4234DF2B0A24DB000C6E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD4234AA2B0A24D9000C6E32 /* Project object */;
+}
